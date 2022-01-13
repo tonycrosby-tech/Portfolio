@@ -5,23 +5,17 @@ export default function Contact() {
   const [email, setEmail] = React.useState('');
   const [message, setMessage] = React.useState('');
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
-      )
-      .join('&');
-  }
-
   function handleSubmit(e) {
     e.preventDefault();
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', name, email, message }),
-    })
-      .then(() => alert('Message sent!'))
-      .catch((error) => alert(error));
+    const data = new FormData();
+
+    data.append('name', name);
+    data.append('email', email);
+    data.append('message', message);
+
+    fetch('/', { method: 'POST', body: data }).then(() => alert('Success!'));
+
+    
   }
   return (
     <section id="contact" className="relative bg-blue-700">
@@ -62,9 +56,9 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+          action="https://formsubmit.co/tonycrosby96@gmail.com"
+          method="POST"
           name="contact"
-          onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white font-serif sm:text-4xl text-3xl mb-1 font-medium title-font">
@@ -81,6 +75,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
+              required
               className="w-full bg-blue-500 rounded border border-gray-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setName(e.target.value)}/>
           </div>
@@ -92,6 +87,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
+              required
               className="w-full bg-blue-500 rounded border border-gray-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setEmail(e.target.value)} 
             />
@@ -104,6 +100,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+            required
               id="message"
               name="message"
               className="w-full bg-blue-500 rounded border border-blue-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
@@ -112,7 +109,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-blue-500 rounded border border-gray-900 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+            className="text-white bg-blue-500 border border-gray-900 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
           >
             Submit
           </button>
