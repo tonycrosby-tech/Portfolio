@@ -4,7 +4,8 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-blue-200 bg-transparent">
+    <section id="skills" className="bg-blue-200 mb-12 bg-transparent mt-12 divide-x-2 ml-24 mr-24 shadow-2xl rounded-2xl">
+      {/* <div className="hero bg-blue-300 divide-x-2 ml-24 mr-24 border-dashed border-2 border-blue-900 shadow-2xl mt-12"> */}
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />

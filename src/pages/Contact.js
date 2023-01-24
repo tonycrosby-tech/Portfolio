@@ -1,24 +1,9 @@
 import React from 'react';
 
 export default function Contact() {
-  const [name, setName] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [message, setMessage] = React.useState('');
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    const data = new FormData();
-
-    data.append('name', name);
-    data.append('email', email);
-    data.append('message', message);
-
-    fetch('/', { method: 'POST', body: data }).then(() => alert('Success!'));
-
-    
-  }
   return (
-    <section id="contact" className="relative bg-blue-700">
+    <section id="contact" className="relative bg-blue-700 mt-12 mb-12 divide-x-2 ml-24 mr-24 shadow-2xl rounded-2xl">
+      {/* <div className="hero bg-blue-300 divide-x-2 ml-24 mr-24 border-dashed border-2 border-blue-900 shadow-2xl mt-12"> */}
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -77,7 +62,7 @@ export default function Contact() {
               name="name"
               required
               className="w-full bg-blue-500 rounded border border-gray-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setName(e.target.value)}/>
+            />
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-blue-300">
@@ -89,7 +74,6 @@ export default function Contact() {
               name="email"
               required
               className="w-full bg-blue-500 rounded border border-gray-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setEmail(e.target.value)} 
             />
           </div>
           <div className="relative mb-4">
@@ -104,7 +88,7 @@ export default function Contact() {
               id="message"
               name="message"
               className="w-full bg-blue-500 rounded border border-blue-900 focus:border-blue-400 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setMessage(e.target.value)}
+            
             />
           </div>
           <button

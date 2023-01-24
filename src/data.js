@@ -8,11 +8,12 @@ import project6 from './images/website1.JPG';
 export const projects = [
   {
     title: 'Project 1',
-    subtitle: 'My First Website',
-    description: `This was the first website I created at the beginning of my full stack coding bootcamp!`,
-    image: project1,
-    technologies: ['Technologies Used: HTML, CSS'],
-    link: 'https://github.com/tonycrosby-tech/portfolio_updated',
+    subtitle: 'Sportzilla',
+    description: `Created an application where you can search different basketball player names
+      and it will populate with information. (Only Basketball)`,
+    technologies: ['Technologies Used: HTML, CSS, JavaScript'],
+    image: project4,
+    link: 'https://millsy4.github.io/sportz_project/',
   },
   {
     title: 'Project 2',
@@ -32,15 +33,6 @@ export const projects = [
   },
   {
     title: 'Project 4',
-    subtitle: 'Sportzilla',
-    description: `We created an App where you can search different basketball players titles
-      and pop up with information. (Only Basketball)`,
-    technologies: ['Technologies Used: HTML, CSS, JavaScript'],
-    image: project4,
-    link: 'https://millsy4.github.io/sportz_project/',
-  },
-  {
-    title: 'Project 5',
     subtitle: 'WhatChaMaCallIt',
     description: `This is a Forum where a user can create threads and reply to others posts.`,
     technologies: ['Technologies Used: HTML, CSS, JavaScript, Bootstrap'],
@@ -48,7 +40,7 @@ export const projects = [
     link: 'https://fullstackbc-project-02.herokuapp.com/',
   },
   {
-    title: 'Project 6',
+    title: 'Project 5',
     subtitle: 'My Last Non-React Website',
     description: `This was my last website created before making a React Website!`,
     technologies: ['Technologies Used: HTML, CSS, JavaScript, Bootstrap'],
