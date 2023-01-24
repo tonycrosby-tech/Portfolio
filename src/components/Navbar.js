@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub as AiFillGithub  } from "react-icons/ai";
 
 export default function Navbar() {
   return (
@@ -25,6 +26,9 @@ export default function Navbar() {
           </a>
                     <a href="#skills" className="mr-5 text-gray-900 font-mono hover:text-blue-500">
             Contact
+          </a>
+          <a href="https://github.com/tonycrosby-tech" target="_blank" className="mr-5 text-gray-900 font-mono hover:text-blue-500">
+            <AiFillGithub/>
           </a>
           
         </nav>
