@@ -24,4 +24,4 @@ https://tonycrosby-tech.github.io/Portfolio
 Tony Crosby
 
 # Questions
-Feel free to contact me by email or linkedin - 
+Feel free to contact me by email: tonycrosby96@gmail.com or linkedin: https://www.linkedin.com/in/tony-crosby-138011184/
