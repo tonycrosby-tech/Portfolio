@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.df2a2ce0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5264d6b5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5264d6b5.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f86e72e6.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f86e72e6.js.map",
+    "static/js/2.726fd1d8.chunk.js": "/Portfolio/static/js/2.726fd1d8.chunk.js",
+    "static/js/2.726fd1d8.chunk.js.map": "/Portfolio/static/js/2.726fd1d8.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.df2a2ce0.chunk.css.map": "/Portfolio/static/css/main.df2a2ce0.chunk.css.map",
+    "static/js/2.726fd1d8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.726fd1d8.chunk.js.LICENSE.txt",
+    "static/media/first_website.4cc9642e.JPG": "/Portfolio/static/media/first_website.4cc9642e.JPG",
+    "static/media/forums.5958dd08.JPG": "/Portfolio/static/media/forums.5958dd08.JPG",
+    "static/media/jsquiz.e98f8caf.jpg": "/Portfolio/static/media/jsquiz.e98f8caf.jpg",
+    "static/media/password-generator.862317df.jpg": "/Portfolio/static/media/password-generator.862317df.jpg",
+    "static/media/sportzilla-demo.90be04d4.gif": "/Portfolio/static/media/sportzilla-demo.90be04d4.gif",
+    "static/media/tony.6b891ae9.jpg": "/Portfolio/static/media/tony.6b891ae9.jpg",
+    "static/media/website1.07f7ef76.JPG": "/Portfolio/static/media/website1.07f7ef76.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f86e72e6.js",
+    "static/js/2.726fd1d8.chunk.js",
+    "static/css/main.df2a2ce0.chunk.css",
+    "static/js/main.5264d6b5.chunk.js"
+  ]
+}
