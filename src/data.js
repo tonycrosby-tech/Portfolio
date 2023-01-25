@@ -1,9 +1,9 @@
-import project1 from './images/first_website.JPG';
+import project1 from './images/sportzilla-demo.gif';
 import project2 from './images/jsquiz.jpg';
 import project3 from './images/password-generator.jpg';
-import project4 from './images/sportzilla-demo.gif';
-import project5 from './images/forums.JPG';
-import project6 from './images/website1.JPG';
+import project4 from './images/forums.JPG';
+import project5 from './images/website1.JPG';
+import github from './images/github.jpg';
 
 export const projects = [
   {
@@ -12,7 +12,7 @@ export const projects = [
     description: `Created an application where you can search different basketball player names
       and it will populate with information. (Only Basketball)`,
     technologies: ['Technologies Used: HTML, CSS, JavaScript'],
-    image: project4,
+    image: project1,
     link: 'https://millsy4.github.io/sportz_project/',
   },
   {
@@ -35,18 +35,27 @@ export const projects = [
     title: 'Project 4',
     subtitle: 'WhatChaMaCallIt',
     description: `This is a Forum where a user can create threads and reply to others posts.`,
-    technologies: ['Technologies Used: HTML, CSS, JavaScript, Bootstrap'],
-    image: project5,
+    technologies: ['Technologies Used: JavaScript, Bootstrap'],
+    image: project4,
     link: 'https://fullstackbc-project-02.herokuapp.com/',
   },
   {
     title: 'Project 5',
-    subtitle: 'My Last Non-React Website',
+    subtitle: '3rd Portfolio',
     description: `This was my last website created before making a React Website!`,
-    technologies: ['Technologies Used: HTML, CSS, JavaScript, Bootstrap'],
+    technologies: ['Technologies Used: HTML, JavaScript, Bootstrap'],
 
-    image: project6,
+    image: project5,
     link: 'https://github.com/tonycrosby-tech/Portfolio_Complete',
+  },
+  {
+    title: 'Github',
+    subtitle: 'More projects ',
+    description: `If you would like to check out more projects that I have created please check out my GitHub.`,
+    technologies: ['Python, C++, JavaScript, React, etc.'],
+
+    image: github,
+    link: 'https://github.com/tonycrosby-tech',
   },
 ];
 
