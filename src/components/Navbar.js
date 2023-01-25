@@ -21,7 +21,7 @@ export default function Navbar() {
           </span>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
             <a
-              href="/"
+              href="/Portfolio"
               className="mr-5 text-gray-900 font-mono hover:text-blue-500"
             >
               Home
@@ -33,7 +33,7 @@ export default function Navbar() {
               About
             </a>
             <a
-              href="/projects"
+              href="/Portfolio/projects"
               className="mr-5 text-gray-900 font-mono hover:text-blue-500"
             >
               Projects
