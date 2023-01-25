@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8a2cc8e3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a183cf00.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a183cf00.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.1579d06f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1579d06f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f86e72e6.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f86e72e6.js.map",
-    "static/js/2.eafc2f9a.chunk.js": "/Portfolio/static/js/2.eafc2f9a.chunk.js",
-    "static/js/2.eafc2f9a.chunk.js.map": "/Portfolio/static/js/2.eafc2f9a.chunk.js.map",
+    "static/js/2.e24c1404.chunk.js": "/Portfolio/static/js/2.e24c1404.chunk.js",
+    "static/js/2.e24c1404.chunk.js.map": "/Portfolio/static/js/2.e24c1404.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.8a2cc8e3.chunk.css.map": "/Portfolio/static/css/main.8a2cc8e3.chunk.css.map",
-    "static/js/2.eafc2f9a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.eafc2f9a.chunk.js.LICENSE.txt",
+    "static/js/2.e24c1404.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e24c1404.chunk.js.LICENSE.txt",
     "static/media/forums.5958dd08.JPG": "/Portfolio/static/media/forums.5958dd08.JPG",
     "static/media/jsquiz.e98f8caf.jpg": "/Portfolio/static/media/jsquiz.e98f8caf.jpg",
     "static/media/password-generator.862317df.jpg": "/Portfolio/static/media/password-generator.862317df.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f86e72e6.js",
-    "static/js/2.eafc2f9a.chunk.js",
+    "static/js/2.e24c1404.chunk.js",
     "static/css/main.8a2cc8e3.chunk.css",
-    "static/js/main.a183cf00.chunk.js"
+    "static/js/main.1579d06f.chunk.js"
   ]
 }
