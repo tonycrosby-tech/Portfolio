@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
@@ -8,16 +8,16 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Navbar />
           <Routes>
-            <Route path="/Portfolio" element={<Home />} />
+            <Route exact path="/Portfolio" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
