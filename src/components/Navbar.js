@@ -33,7 +33,7 @@ export default function Navbar() {
               About
             </a>
             <a
-              href="/Portfolio/projects"
+              href="#projects"
               className="mr-5 text-gray-900 font-mono hover:text-blue-500"
             >
               Projects
