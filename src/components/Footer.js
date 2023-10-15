@@ -20,7 +20,7 @@ const Footer = () => {
         </span>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l lg:border-gray-600 md:border-gray-70 flex flex-wrap items-center justify-center">
           <a
-            href="https://docs.google.com/document/d/1LXRe2oxhB_wv1RlOngVGmCuWDOATxlwH_OXFqPWDBws/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1e0w1Ft0nlXIjnl95wXuo9UkRAzP1rR6p6olwNq6X-Zg/edit?usp=sharing"
             target="_blank"
             className=" text-blue-500 font-mono ml-2 hover:text-blue-900"
           >
@@ -36,7 +36,6 @@ const Footer = () => {
           </a>
         </nav>
       </div>
-
     </div>
   );
 };
